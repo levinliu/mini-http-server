@@ -11,4 +11,5 @@ do
     kill -9 "${PID}"
 done
 # activate python2 context and start server
+echo "start to launch mini-server"
 source .venv/bin/activate && python server.py & 
